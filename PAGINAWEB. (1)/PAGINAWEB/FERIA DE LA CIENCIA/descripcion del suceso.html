@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>DESASTRES NATURALES EN NUESTRO ENTORNO</title>
+
+
+</head>
+
+<body>
+  <img src="./assets/images/icon-menu.svg" id="icon-menu" alt="" srcset="">
+  <div id="container">
+    <header>
+      <div id="logo">
+        <img src="./assets/images/Logo1.jpeg" alt="" height="120px" width="120px">
+      </div>
+      <nav id="menu">
+        <ul>
+          <li><a href="./index.html">Inico</a></li>
+          <li><a href="./tipo de desastre.html">Tipo de desastre</a></li>
+          <li><a href="./informacion personal.html">Informacion personal</a></li>
+          <li><a href="#">Descripcion del suceso</a></li>
+          <li><a href="./ubicacion.html">Ubicacion</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="content">
+      <div id="info">
+        <div id="banner">
+          <img src="./assets/images/EmergencyPlanGraphic_es.jpg" alt="">
+        </div>
+        <div id="title">
+          <h1>DESCRIPCION DEL SUCESO</h1>
+          <div id="descripcion">
+            <p>Al describir un suceso natural estaras advirtiendo a las personas que
+              probablemente esten cerca y los salvaras de que les pase algo malo. 
+            </p>
+            <input type="button" value=  "¡REPORTAR!" onclick="mostrarAlerta()">
+            <script>
+              function mostrarAlerta(){
+                alert("¡TU ALERTA HA SIDO REPORTADA EXITOSAMENTE! PARA MAS INFORMACIÓN COMUNICATE CON NOSOTROS")
+              }
+            </script>
+          </div>
+
+        </div>
+      </div>
+
+      <div id="barral">
+        <h1>¿Cómo se debe actuar en caso de un desastre natural?</h1>
+        <div id="cards">
+          <div class="card">
+            <h3>Lo prncipas que se debe hacer es controlarse ya que si nos da panico, temor o no quedamos 
+              quietos correremos el peligro de que nos suceda algo terrorifico
+            </h3>
+            <p></p>
+          </div>
+          <div class="card">
+            <h3>SEGUIR ESTOS PASOS</h3>
+            <p>Desconecte la energía eléctrica y cierre las llaves de paso de agua y gas.
+              Cubra su boca, nariz y oídos con paños húmedos.</p>
+          </div>
+          <div class="card">
+            <h3>SEGUIR ESTOS PASOS</h3>
+            <p>Trasládese a una zona de seguridad.
+              Vuelva a su hogar cuando las autoridades lo indiquen.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="texts">
+        <div class="infotex">
+          <img src="./assets/images/deslizamiento.jpg" alt="" srcset="">
+          <div class="textos">
+            <h2>01</h2>
+            <h4>Deslizamiento</h4>
+            <p>los deslizamientos de tierra ocurren cuanfdo grandes cantidades de tierra 
+              se desplazan hacia abajo en un apendiente, estos puede ser causados por varios 
+              factores.</p>
+          </div>
+        </div>
+        <div class="infotex">
+          <img src="./assets/images/crecientes.jpg" alt="" srcset="">
+          <div id="textos">
+            <h2>02</h2>
+            <h4>Crecientes de rios</h4>
+            <p>ocurren cuando hay un aumento significativo en el caudal del agua generalmente 
+              debido a fuertes lluvias.</p>
+          </div>
+        </div>
+        <div class="infotex">
+          <img src="./assets/images/sismos.jpeg" alt="" srcset="">
+          <div class="textos">
+            <h2>03</h2>
+            <h4>Sismos</h4>
+            <p>los sismos son causados por la liberacion de energia acomulada en las rocas 
+              de la corteza terrestre.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+  </div>
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>

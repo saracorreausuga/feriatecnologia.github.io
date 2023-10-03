@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>DESASTRES NATURALES EN NUESTRO ENTORNO</title>
+
+
+</head>
+
+<body>
+  <img src="./assets/images/icon-menu.svg" id="icon-menu" alt="" srcset="">
+  <div id="container">
+    <header>
+      <div id="logo">
+        <img src="./assets/images/Logo1.jpeg" alt="" height="120px" width="120px">
+      </div>
+      <nav id="menu">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="./tipo de desastre.html">Tipo de desastre</a></li>
+          <li><a href="./informacion personal.html">Informacion personal</a></li>
+          <li><a href="./descripcion del suceso.html">Descripcion del suceso</a></li>
+          <li><a href="./ubicacion.html">Ubicacion</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="content">
+      <div id="info">
+        <div id="banner">
+          <img src="./assets/images/cañas.jpg" alt="">
+        </div>
+        <div id="title">
+          <h1>DESASTRES NATURALES EN NUESTRO ENTORNO</h1>
+          <div id="descripcion">
+            <p> Los desatres naturales son ineviables, pero al estar al tanto de la 
+              posibilidad de que estos esten presantes y al poder avisar sobre estos 
+              salvaremos muchas vidas.
+            </p>
+          
+            <input type="button" value=  "¡REPORTAR!" onclick="mostrarAlerta()">
+            <script>
+              function mostrarAlerta(){
+                alert("¡TU ALERTA HA SIDO REPORTADA EXITOSAMENTE! PARA MAS INFORMACIÓN COMUNICATE CON NOSOTROS")
+              }
+            </script>
+            <br>
+            <p> <h1>COMUNICATE CON NOSOTROS</h1></p>
+                <a href="https://wa.me/3147045806" class="whatsapp-button" target="_blank">
+                    <img src="./assets/images/whats.png" alt="WhatsApp Icon">
+                    <p><h1>¡Contáctanos por WhatsApp!</h1></p>
+                </a>
+            
+
+          </div>
+
+        </div>
+      </div>
+
+      <div id="barral">
+        <h1>OBJETIVO GENERAL</h1>
+        <div id="cards">
+          <div class="card">
+            <h3>realizar una pagina que permita reconocer las afectaciones que presentan los habitantes de cañasgordas 
+              a causa de los fenomenos naturales</h3>
+            <p></p>
+          </div>
+          <div class="card">
+            <h3>OBJETIVO ESPECIFICO</h3>
+            <h4>desarrollar una encuesta que permita tener un registro de los daños ambientales</h4>
+          </div>
+          <div class="card">
+            <h3>OBJETIVO ESPECIFICO</h3>
+            <h4>establecer un boton de alarma que permita avisar a los habitantes cañasgordenses sobre cualquier tipo de desastre</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="texts">
+        <div class="infotex">
+          <img src="./assets/images/deslizamiento.jpg" alt="" srcset="" >
+          <div class="textos">
+            <h2>01</h2>
+            <h4>Deslizamiento</h4>
+            <p>Los deslizamientos de tierra ocurren cuanfdo grandes cantidades de tierra se desplazan hacia abajo 
+              en un apendiente, estos puede ser causados por varios factores.</p>
+          </div>
+        </div>
+        <div class="infotex">
+          <img src="./assets/images/creciente.jpg" alt="" srcset="">
+          <div id="textos">
+            <h2>02</h2>
+            <h4>Crecientes de rios</h4>
+            <p>Ocurren cuando hay un aumento significativo en el caudal del agua generalmente debido a fuertes lluvias.</p>
+          </div>
+        </div>
+        <div class="infotex">
+          <img src="./assets/images/sismos.jpeg" alt="" srcset="">
+          <div class="textos">
+            <h2>03</h2>
+            <h4>Sismos</h4>
+            <p>Los sismos son causados por la liberacion de energia acomulada en las rocas de la corteza terrestre.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+  </div>
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>
